@@ -144,37 +144,32 @@ Temperatura F? 212
 
 
 
-Podzielniki 3
+##Podzielniki 3
 [3, 5, 9, 8]
 [True, False, True, False]
 
-
-Zaczyna się na TA
+##Zaczyna się na TA
 ['TA_sam', 'TA_guido', 'student_poohbear', 'student_htiek']
 ['sam', 'guido']
 
-
-Duże pierwsze litery
+##Duże pierwsze litery
 ['apple', 'orange', 'pear']
 ['A', 'O', 'P']
 
-
-Jeżeli jest litera 'p'
+##Jeżeli jest litera 'p'
 ['apple', 'orange', 'pear']
 ['apple', 'pear']
 
-
-Owoc z jego długością krotka
+##Owoc z jego długością krotka
 ['apple', 'orange', 'pear']
 [('apple', 5), ('orange', 6), ('pear', 4)]
 
-
-Owoc z jego długością (słownik)
+##Owoc z jego długością (słownik)
 ['apple', 'orange', 'pear']
 {'apple': 5, 'pear': 4, 'orange': 6}
 >>> 
 
-Lab3.py
+##Lab3.py
 
 >>> print_two(1,2)
 Arguments: 1 and 2
@@ -183,14 +178,12 @@ Arguments: 1 and 2
 Arguments: 4 and 1
 Arguments: 4 and 1
 Arguments: 4 and 1
->>> 
 
 >>> keyword_args(a=4)
 a: 4
 b: 1
 c: X
 d: None
->>> 
 
 >>> print_keyword_args()
 a: 5
@@ -325,8 +318,7 @@ options: {'a': [4, 5], 'b': 'x'}
 |           album |     1989     |
 ==================================
 
-
-LAB4.py
+##LAB4.py
 
 >>> test_lambda()
 25
@@ -367,7 +359,6 @@ apple
 ['cabbage', 'apple', 'pear', 'bananas']
 cabbage
 bananas
-
 
 >>> alpha_score("ABC")
 6
@@ -439,7 +430,7 @@ KeyboardInterrupt
 >>> print_args(outer(1))
 <function print_args.<locals>.wrapper at 0x00000000030D99D8>
 
-LAB5.py
+##LAB5.py
 
 >>> from lab5 import Course
 >>> stanford_python = Course("CS","41","hap.py code: The python programming language")
