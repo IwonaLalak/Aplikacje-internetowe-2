@@ -143,7 +143,7 @@ Temperatura F? 212
 [1, 3, 5, 7]
 
 ```
-
+```
 ##Podzielniki 3
 [3, 5, 9, 8]
 [True, False, True, False]
@@ -168,9 +168,10 @@ Temperatura F? 212
 ['apple', 'orange', 'pear']
 {'apple': 5, 'pear': 4, 'orange': 6}
 >>> 
+```
 
 ##Lab3.py
-
+```
 >>> print_two(1,2)
 Arguments: 1 and 2
 
@@ -317,9 +318,10 @@ options: {'a': [4, 5], 'b': 'x'}
 | artist_fullname | Taylor $wift |
 |           album |     1989     |
 ==================================
+```
 
 ##LAB4.py
-
+```
 >>> test_lambda()
 25
 24
@@ -429,9 +431,10 @@ KeyboardInterrupt
 
 >>> print_args(outer(1))
 <function print_args.<locals>.wrapper at 0x00000000030D99D8>
+```
 
 ##LAB5.py
-
+```
 >>> from lab5 import Course
 >>> stanford_python = Course("CS","41","hap.py code: The python programming language")
 
@@ -462,3 +465,4 @@ False
 True
 >>> cs107 > cs110
 False
+```
